@@ -10,7 +10,7 @@
     "build:windows": "electron-packager . image-shrink --overwrite --platform=win32 --arch=ia32 --prune=false --out=release-builds-windows --version-string.CompanyName=CE --version-string.FileDescription=CE"
   },
   "devDependencies": {
-    "electron": "^9.0.0",
+    "electron": "^9.3.1",
     "electron-builder": "^22.7.0",
     "electron-packager": "^14.2.1",
     "nodemon": "^2.0.4"
